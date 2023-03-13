@@ -1,0 +1,130 @@
+.contenedor {
+    width: 370px;
+    height: 410px;
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+  }
+  .label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    display: block;
+  }
+  .label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    height: 19%;
+    
+  }
+  form{
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      gap: 20px;
+  }
+  .ico {
+    position: relative;
+  }
+  .icons {
+    border: none;
+    width: 20px;
+    background: transparent;
+    outline: none;
+    height: 42px;
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+  }
+  .input {
+    position: relative;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .input[type="text"],
+  .input[type="password"] {
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+  }
+  .input::placeholder { color: rgb(170, 170, 170); font-weight: bold; }
+  .label:hover {
+    border: none;
+    border-bottom: 1px solid rgb(64, 143, 112);
+  }
+  .container{
+    display: center;
+  }
+  .checkbox {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding:0;
+    margin: 0;
+    width: 15px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .label2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 15px;
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+  .checkbox:checked + .label .ball {
+    transform: translateX(24px);
+  }
+  .pass {
+    border: none;
+    width: 20px;
+    background: transparent;
+    outline: none;
+    position: relative;
+    height: 32px;
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+  }
+  .boton{
+    border: none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    width: 50%;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  @media (max-width: 357px) {
+    .Contenedor {
+      width: 200px;
+      height: 400px;
+    }
+  }
