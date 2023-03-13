@@ -12,5 +12,7 @@ El aplicativo tiene las funciones de agregar, editar, mostrar y eliminar; esta l
 
 
 -Proyecto Integrador: Bases de datos:  https://drive.google.com/file/d/16KzX4Cu1RVXF4a13LRkjEsy6vdUq9Qt0/view
+
 -Creando tu base de datos usando MongoDB:  https://docs.google.com/document/d/1cWaxy-sG1WjFudz4wsF4Bn32qYj29yER/edit?usp=share_link&ouid=116108335198148885401&rtpof=true&sd=true
+
 -Clúster MongoDB Atlas: https://docs.google.com/document/d/1ohKlWe_4TxxWil6pR2SjEWyKlaXo54XJ/edit?usp=share_link&ouid=116108335198148885401&rtpof=true&sd=true
